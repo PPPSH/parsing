@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oadrPayload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://openadr.org/oadr-2.0b/2012/07">
+  <oadrSignedObject>
+    <oadrCreatedReport d3p1:schemaVersion="2.0b" xmlns:d3p1="http://docs.oasis-open.org/ns/energyinterop/201110">
+      <d3p1:eiResponse>
+        <d3p1:responseCode>200</d3p1:responseCode>
+        <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">dfcd2a78b2919de5c56c</requestID>
+      </d3p1:eiResponse>
+      <oadrPendingReports>
+        <d3p1:reportRequestID>30a879432c61bbba2ac6</d3p1:reportRequestID>
+      </oadrPendingReports>
+      <d3p1:venID>2956c1b152747b008191</d3p1:venID>
+    </oadrCreatedReport>
+  </oadrSignedObject>
+</oadrPayload>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oadrPayload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://openadr.org/oadr-2.0b/2012/07">
+  <oadrSignedObject>
+    <oadrCancelOpt d3p1:schemaVersion="2.0b" xmlns:d3p1="http://docs.oasis-open.org/ns/energyinterop/201110">
+      <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">67705eb24b</requestID>
+      <d3p1:optID>2ff4b605e7-IN</d3p1:optID>
+      <d3p1:venID>2956c1b152747b008191</d3p1:venID>
+    </oadrCancelOpt>
+  </oadrSignedObject>
+</oadrPayload>

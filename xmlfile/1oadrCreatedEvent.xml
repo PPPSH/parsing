@@ -1,0 +1,9 @@
+var xmlbuilder = require('xmlbuilder');
+
+var root = xmlbuilder.create('root',
+                     {version: '1.0', encoding: 'UTF-8', standalone: true},
+                     {pubID: null, sysID: null},
+                     {allowSurrogateChars: false, skipNullAttributes: false, 
+                      headless: false, ignoreDecorators: false,
+                      separateArrayItems: false, noDoubleEncoding: false,
+                      stringify: {}});

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oadrPayload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://openadr.org/oadr-2.0b/2012/07">
+  <oadrSignedObject>
+    <oadrCreateReport d3p1:schemaVersion="2.0b" xmlns:d3p1="http://docs.oasis-open.org/ns/energyinterop/201110">
+      <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">dfcd2a78b2919de5c56c</requestID>
+      <oadrReportRequest>
+        <d3p1:reportRequestID>30a879432c61bbba2ac6</d3p1:reportRequestID>
+        <d3p1:reportSpecifier>
+          <d3p1:reportSpecifierID>METADATA</d3p1:reportSpecifierID>
+          <granularity xmlns="urn:ietf:params:xml:ns:icalendar-2.0">
+            <duration>PT1M</duration>
+          </granularity>
+          <d3p1:reportBackDuration>
+            <duration xmlns="urn:ietf:params:xml:ns:icalendar-2.0">PT1M</duration>
+          </d3p1:reportBackDuration>
+          <d3p1:reportInterval>
+            <properties xmlns="urn:ietf:params:xml:ns:icalendar-2.0">
+              <dtstart>
+                <date-time>2016-09-23T12:28:43Z</date-time>
+              </dtstart>
+              <duration>
+                <duration>PT1M</duration>
+              </duration>
+            </properties>
+          </d3p1:reportInterval>
+        </d3p1:reportSpecifier>
+      </oadrReportRequest>
+    </oadrCreateReport>
+  </oadrSignedObject>
+</oadrPayload>

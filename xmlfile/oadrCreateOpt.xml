@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oadrPayload xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://openadr.org/oadr-2.0b/2012/07">
+  <oadrSignedObject>
+    <oadrCreateOpt d3p1:schemaVersion="2.0b" xmlns:d3p1="http://docs.oasis-open.org/ns/energyinterop/201110">
+      <d3p1:optID>2ff4b605e7-IN</d3p1:optID>
+      <d3p1:optType>optIn</d3p1:optType>
+      <d3p1:optReason>economic</d3p1:optReason>
+      <d3p1:venID>2956c1b152747b008191</d3p1:venID>
+      <vavailability xmlns="urn:ietf:params:xml:ns:icalendar-2.0">
+        <components>
+          <available>
+            <properties>
+              <dtstart>
+                <date-time>2016-09-21T19:00:00Z</date-time>
+              </dtstart>
+              <duration>
+                <duration>PT1H</duration>
+              </duration>
+            </properties>
+          </available>
+        </components>
+      </vavailability>
+      <d3p1:createdDateTime>2016-09-22T00:55:03.4951172Z</d3p1:createdDateTime>
+      <requestID xmlns="http://docs.oasis-open.org/ns/energyinterop/201110/payloads">12cc5f2bb1</requestID>
+    </oadrCreateOpt>
+  </oadrSignedObject>
+</oadrPayload>
