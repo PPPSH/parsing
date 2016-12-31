@@ -8,19 +8,14 @@
 			 
 			fs.readFile('../xmlfile/oadrCreatedReport.xml',function(err,data){
 				parser.parseString(data,function(err, result){
-					
-					
-					
+				
 			//	console.log(result);	
 					//responseCode
-					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport["d3p1:eiResponse"]["d3p1:responseCode"]);
-					
+					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport["d3p1:eiResponse"]["d3p1:responseCode"]);			
 					//requestID
-					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport["d3p1:eiResponse"].requestID._);
-					
+					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport["d3p1:eiResponse"].requestID._);				
 					//reportRequestID
-					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport.oadrPendingReports["d3p1:reportRequestID"]);
-					
+					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport.oadrPendingReports["d3p1:reportRequestID"]);				
 					//venID
 					console.log(result.oadrPayload.oadrSignedObject.oadrCreatedReport["d3p1:venID"]);
 					
