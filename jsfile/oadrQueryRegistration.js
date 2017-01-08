@@ -9,6 +9,12 @@
 			fs.readFile('../xmlfile/oadrQueryRegistration.xml',function(err,data){
 				parser.parseString(data,function(err, result){
 					
+					
+					console.log(result);
+					
+					console.log("!@#!@#!@#@!")
+					
+					
 					//requestID
 					console.log(result.oadrPayload.oadrSignedObject.oadrQueryRegistration.requestID._);
 					
