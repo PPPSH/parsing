@@ -1,3 +1,3 @@
 /**
- * http://usejsdoc.org/
+ * oadrCreatedPartyRegistration
  */
